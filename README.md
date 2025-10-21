@@ -11,4 +11,4 @@ Useful for batch-renaming multiple **compositions** (and other project items lik
 Takes a **composition** with multiple **solid layers** in it and slices it into **compositions** the size of each **solid**, then places the original **composition** inside the smaller **compositions** positioning so the respective solid is perfectly framed. Useful for creating multi-screen pixelmaps.
 
 # [Auto Fade](https://github.com/AleMarcati/AleMarcati-AfterEffects-Scripts/blob/main/AleMarcati_AutoFade_V1.jsx):
-Applies keyframes to the **Opacity** property of selected layers to create a smooth fade-in and fade-out effect based on the layer's **In and Out points**. It can be configured to use a set duration (e.g., 15 frames) for the transitions.
+Adds an expression to the **Opacity** property of selected layers to create a smooth fade-in and fade-out effect based on the layer's **In and Out points**. It can be configured to use a set duration (e.g., 15 frames) for the transitions.
