@@ -8,8 +8,6 @@ DESCRIPTION: Creates a UI to set a fade duration and applies an expression to
 
 (function autoFadeInOut(thisObj) {
 
-    // --- Configuration & UI Setup ---
-
     var SCRIPT_NAME = "Auto Fade In-Out";
     var SIGNATURE = "AleMarcati Scripts";
 
@@ -49,11 +47,7 @@ DESCRIPTION: Creates a UI to set a fade duration and applies an expression to
     }
 
 
-    // --- Expression Definition ---
-
-    // The expression will be a JavaScript function that uses the linear() method.
-    // It will calculate two values: one for the fade in and one for the fade out,
-    // and take the minimum of the two.
+    // Expression Definition
     function getOpacityExpression(fadeDur) {
 
         var expression = [
@@ -78,8 +72,6 @@ DESCRIPTION: Creates a UI to set a fade duration and applies an expression to
 
         return expression;
     }
-
-    // --- Core Logic ---
 
     // Function to apply the expression to selected layers
     function applyExpression(fadeDurationText) {
@@ -134,7 +126,6 @@ DESCRIPTION: Creates a UI to set a fade duration and applies an expression to
         }
     }
 
-    // --- Run the Script ---
     buildUI(thisObj);
 
 })(this);
